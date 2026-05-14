@@ -86,3 +86,4 @@ Understanding the output:
 
 ## Conclusion
 
+Normally I would simulate a break in a link to show how IS-IS dynamically changes its routing paths to account for the link failure. However, I decided not to do that due to the simplicity of the topology and the true effect is only seen in the real-world where there are dozens of routers and even more links between them. Instead I just wanted to show the simplicity of setting up IS-IS, but also the slightly complicated nature of how this particular routing protocol works.
