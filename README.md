@@ -43,7 +43,7 @@ __Note: Routers R1, R2, and R4 are on level 1, but R3 is on level 2. R2 is the o
 
 <br>
 Router 1 details:
-<img width="836" height="327" alt="image" src="https://github.com/user-attachments/assets/31606e32-ba62-4d52-b00c-0d864f93e65b" />
+<br><img width="836" height="327" alt="image" src="https://github.com/user-attachments/assets/31606e32-ba62-4d52-b00c-0d864f93e65b" />
 
 Output of “show ip route isis”:
 <img width="836" height="234" alt="image" src="https://github.com/user-attachments/assets/34283c74-b742-4f3c-861f-587aac792bc9" />
@@ -51,7 +51,7 @@ Output of “show ip route isis”:
 
 <br>
 Router 2 details:
-<img width="848" height="480" alt="image" src="https://github.com/user-attachments/assets/bfe4c5ee-da42-4308-b716-d23b66103821" />
+<br><img width="848" height="480" alt="image" src="https://github.com/user-attachments/assets/bfe4c5ee-da42-4308-b716-d23b66103821" />
 
 Output of “show ip route isis”:
 <img width="843" height="202" alt="image" src="https://github.com/user-attachments/assets/5b8d7cb4-aef8-4776-ba41-2c8ed4a3fb2d" />
@@ -59,7 +59,7 @@ Output of “show ip route isis”:
 
 <br>
 Router 3 details:
-<img width="850" height="287" alt="image" src="https://github.com/user-attachments/assets/76d8f7f2-a826-4b44-aa6c-e70f8cec90aa" />
+<br><img width="850" height="287" alt="image" src="https://github.com/user-attachments/assets/76d8f7f2-a826-4b44-aa6c-e70f8cec90aa" />
 
 Output of “show ip route isis”:
 <img width="852" height="262" alt="image" src="https://github.com/user-attachments/assets/0e331c16-805c-4376-b61c-360711e9afbc" />
@@ -67,7 +67,7 @@ Output of “show ip route isis”:
 
 <br>
 Router 4 details:
-<img width="854" height="334" alt="image" src="https://github.com/user-attachments/assets/8faacdcb-d68a-4db6-aaf2-b6655c8a6944" />
+<br><img width="854" height="334" alt="image" src="https://github.com/user-attachments/assets/8faacdcb-d68a-4db6-aaf2-b6655c8a6944" />
 
 Output of “show ip route isis”:
 <img width="859" height="243" alt="image" src="https://github.com/user-attachments/assets/f1c8ae6e-d743-4af6-aa23-ed01e6ddc693" />
