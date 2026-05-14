@@ -25,5 +25,6 @@
 - Ubuntu Container (running on VMware machine)
 
 ## Configurations
-
-
+| R1 | R2 | R3 | R4 |
+|----|----|----|----|
+| ```bash<br>enable<br>conf t<br>hostname R1<br><br>interface Loopback0<br>ip address 1.1.1.1 255.255.255.255<br>ip router isis CORE<br><br>interface g0/0<br>ip address 10.12.12.1 255.255.255.0<br>ip router isis CORE<br>no shutdown<br><br>router isis CORE<br>net 49.0001.0000.0000.0001.00<br>is-type level-1<br>end<br>wr<br>``` | ```bash<br>enable<br>conf t<br>hostname R2<br><br>interface Loopback0<br>ip address 2.2.2.2 255.255.255.255<br>ip router isis CORE<br><br>interface g0/0<br>ip address 10.12.12.2 255.255.255.0<br>ip router isis CORE<br>no shutdown<br><br>interface g0/1<br>ip address 10.23.23.2 255.255.255.0<br>ip router isis CORE<br>no shutdown<br><br>interface g0/2<br>ip address 10.24.24.2 255.255.255.0<br>ip router isis CORE<br>no shutdown<br><br>router isis CORE<br>net 49.0001.0000.0000.0002.00<br>is-type level-1-2<br>end<br>wr<br>``` | ```bash<br>enable<br>conf t<br>hostname R3<br><br>interface Loopback0<br>ip address 3.3.3.3 255.255.255.255<br>ip router isis CORE<br><br>interface g0/0<br>ip address 10.23.23.3 255.255.255.0<br>ip router isis CORE<br>no shutdown<br><br>router isis CORE<br>net 49.0002.0000.0000.0003.00<br>is-type level-2-only<br>end<br>wr<br>``` | ```bash<br>enable<br>conf t<br>hostname R4<br><br>interface Loopback0<br>ip address 4.4.4.4 255.255.255.255<br>ip router isis CORE<br><br>interface g0/0<br>ip address 10.24.24.4 255.255.255.0<br>ip router isis CORE<br>no shutdown<br><br>router isis CORE<br>net 49.0001.0000.0000.0004.00<br>is-type level-1<br>end<br>wr<br>``` |
