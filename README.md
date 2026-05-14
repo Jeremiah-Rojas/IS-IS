@@ -19,6 +19,11 @@
     - NSEL: 00
 - Uses “Areas” which can be defined as a logical group where routers share L1 (level 1) routing databases; this is different from a subnet and VLAN.
 
+### Devices Used:
+- Cisco IOSv 15.7 router
+- GNS3 Software
+- Ubuntu Container (running on VMware machine)
+
 ## Configurations
 
 
