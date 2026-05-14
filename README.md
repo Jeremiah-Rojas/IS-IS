@@ -76,7 +76,7 @@ Output of “show ip route isis”:
 Understanding the output:
 - The “Holdtime” column shows the amount of seconds the link will stay up until it receives another IS-IS “hello” message; which is just a packet saying the neighbor is still active.
 - The “Circuit Id” column is a unique identifier for that link
-<br>
+
 - lSPID: identifier the route and fragment of the LSP. The LSP is a packet that contains a router’s topology information.
 - LSP Seq Num: Sequence number of the LSP which is used to determine the newest topology data
 - LSP Checksum: verifies that the LSP has not been corrupted. If it changes, routers treat the LSP as if it had been updated
